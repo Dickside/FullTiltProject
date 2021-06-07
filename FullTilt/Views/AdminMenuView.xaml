@@ -1,0 +1,45 @@
+﻿<Window
+    x:Class="FullTilt.Views.AdminMenuView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:FullTilt.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Форма Администратора"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Grid>
+        <Button
+            x:Name="Service"
+            Width="75"
+            Margin="345,167,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="Service_Click"
+            Content="Сервис" />
+        <Button
+            x:Name="Users"
+            Width="75"
+            Margin="345,192,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="Users_Click"
+            Content="Пользователи" />
+        <Button
+            x:Name="Clients"
+            Width="75"
+            Margin="345,217,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="Клиенты" />
+        <Button
+            x:Name="Exit"
+            Width="75"
+            Margin="345,242,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="Выход" />
+
+    </Grid>
+</Window>

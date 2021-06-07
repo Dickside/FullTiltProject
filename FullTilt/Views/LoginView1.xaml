@@ -1,0 +1,54 @@
+﻿<Window
+    x:Class="FullTilt.Views.LoginView1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:FullTilt.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Авторизация"
+    Width="800"
+    Height="450"
+    ResizeMode="NoResize"
+    mc:Ignorable="d">
+    <Grid>
+        <Button
+            x:Name="Join"
+            Width="75"
+            Margin="138,220,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="Join_Click"
+            Content="Вход" />
+        <Button
+            x:Name="Cancel"
+            Width="75"
+            Margin="277,220,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="Выход" />
+        <Label
+            Margin="138,146,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="Login" />
+        <Label
+            Margin="138,172,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="Password" />
+        <TextBox
+            x:Name="Login"
+            Width="120"
+            Height="23"
+            Margin="232,149,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            TextWrapping="Wrap" />
+        <PasswordBox
+            x:Name="Password"
+            Width="120"
+            Margin="232,180,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top" />
+    </Grid>
+</Window>
