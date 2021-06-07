@@ -68,6 +68,7 @@ namespace FullTilt.Views
 
         private void SearchBox_TextChanged(object sender, TextChangedEventArgs e)
         {
+            Refresh();
             FiltrationMethod();
         }
 
